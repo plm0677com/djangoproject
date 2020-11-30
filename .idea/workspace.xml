@@ -19,25 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90d0fadc-69b3-41a1-a1eb-de1ba3198d22" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/djangoproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoproject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Django_Lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/boards/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/boards/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/boards/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/boards/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/boards/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/boards/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/boards/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/boards/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="90d0fadc-69b3-41a1-a1eb-de1ba3198d22" name="默认的" comment="git push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -69,6 +52,14 @@
       <updated>1606727028174</updated>
       <workItem from="1606727035449" duration="126000" />
     </task>
+    <task id="LOCAL-00001" summary="git push">
+      <created>1606728186383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606728186383</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,11 +76,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git push" />
+    <option name="LAST_COMMIT_MESSAGE" value="git push" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1606727790975">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1606728192744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606727790975" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606728192744" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1606728109092">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606728109092" />
     <state x="389" y="158" key="SettingsEditor" timestamp="1606727862421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
