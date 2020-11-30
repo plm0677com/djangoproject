@@ -4,7 +4,7 @@
 
 virtualenv venv
 
--p --python.exe地址  （指定python地址）
+-p python.exe地址  （指定python地址）
 
 ### 启动
 
@@ -88,3 +88,6 @@ INSTALLED_APPS：列出已安装的应用。我们把我们的应用boards添加
 - **User（用户模型）** ：这里有 username ，password，email 和 is_superuser 四个字段。
 
 这里值得注意的是，我们在 Django 应用中，不需要创建 User 用户模型，因为在 Django 的 contrib 中已经内置了 User 模型，我们可以直接拿来使用，就没必要重新创建了。
+
+`python manage.py makemigrations`
+
