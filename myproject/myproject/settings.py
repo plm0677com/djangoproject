@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os.path
+import djongo
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -30,11 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 # 以安装的项目
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
+    'django.contrib.admin',  # 管理网站
+    'django.contrib.auth',  # 身份验证系统
+    'django.contrib.contenttypes',  # 内容类型的框架
+    'django.contrib.sessions',  # 会话框架
+    'django.contrib.messages',  # 消息框架
     'django.contrib.staticfiles',  # 管理静态文件
     'boards'
 ]
@@ -73,9 +74,31 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': BASE_DIR / 'db.sqlite3',
+    # }
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'djongo',
+        'ENFORCE_SCHEMA': True,
+        'LOGGING': {
+            'version': 1,
+            'loggers': {
+                'djongo': {
+                    'level': 'DEBUG',
+                    'propogate': False,
+                }
+            },
+         },
+        'NAME': 'db',
+        'CLIENT': {
+            'host': '127.0.0.1',
+            'port': 27017
+            # 'username': 'db-username',
+            # 'password': 'password',
+            # 'authSource': 'db-name',
+            # 'authMechanism': 'SCRAM-SHA-1'
+        }
     }
 }
 
@@ -100,7 +123,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
 TIME_ZONE = 'UTC'
 
