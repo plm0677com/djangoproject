@@ -25,7 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90d0fadc-69b3-41a1-a1eb-de1ba3198d22" name="默认的" comment="git push">
-      <change beforePath="$PROJECT_DIR$/myproject/templates/home.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/template/bond.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模型字段参考.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/boards/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/boards/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/boards/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/boards/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/boards/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/boards/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/boards/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/boards/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -75,7 +83,8 @@
       <updated>1606727028174</updated>
       <workItem from="1606727035449" duration="126000" />
       <workItem from="1607474513460" duration="11884000" />
-      <workItem from="1607589198927" duration="1059000" />
+      <workItem from="1607589198927" duration="2233000" />
+      <workItem from="1607665804764" duration="6214000" />
     </task>
     <task id="LOCAL-00001" summary="git push">
       <created>1606728186383</created>
@@ -136,10 +145,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606728192744" />
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1606728109092">
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1607669246918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606728109092" />
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607669246918" />
     <state x="594" y="279" key="MultipleFileMergeDialog" timestamp="1607589723715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

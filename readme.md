@@ -16,6 +16,10 @@ venv\Scripts\deactivate.bat
 
 
 
+## 前端页面设计
+
+https://www.bootcdn.cn/
+
 ## django
 
 ### 启动新项目
